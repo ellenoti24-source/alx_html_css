@@ -31,3 +31,30 @@ aside {
 header, footer {
     padding: 20px;
 }
+
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+article h1 {
+  font-size: 40px;
+  color: #0077cc;
+}
+
+article p {
+  line-height: 1.6;
+}
