@@ -1,0 +1,23 @@
+/* base.css */
+
+body {
+    color: #161616;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
