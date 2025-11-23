@@ -1,0 +1,33 @@
+/* Tell the <body> it is a flex container organized in a column */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* full height of viewport */
+    margin: 0; /* remove default margin */
+}
+
+/* Tell <main> it is a flex container organized in a row */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* automatic height & width */
+}
+
+/* Article takes 2/3 of page width */
+article {
+    flex: 2;
+    overflow-y: auto; /* allows scrolling */
+    padding: 10px;
+}
+
+/* Aside takes 1/3 of page width */
+aside {
+    flex: 1;
+    overflow-y: auto; /* allows scrolling */
+    padding: 10px;
+}
+
+/* Optional: make header and footer look nicer */
+header, footer {
+    padding: 20px;
+}
